@@ -27,6 +27,7 @@ botonconsulta.addEventListener(
             var clima= Math.floor(Math.random()* 3)
             if(clima==0){
                 clima="Despejado"
+               
             }else if(clima==1){
                 clima="Nublado"
             }else{
@@ -51,15 +52,15 @@ botonconsulta.addEventListener(
 botonhoy.addEventListener(
 
     'click',
-    function bot(){
+    function (){
         setTimeout(()=>{
             var tiempo=Date.now()
             var hoy = new Date(tiempo)
             var fechareal=hoy.toLocaleDateString() 
             var mes = hoy.toLocaleString("default",{month:"2-digit"})
-            var año= hoy.getFullYear()
+            var anio= hoy.getFullYear()
             var dia=hoy.toLocaleString("default",{day:"2-digit"})
-            var fechaformato=año+"-"+mes+"-"+dia
+            var fechaformato=anio+"-"+mes+"-"+dia
            fechadato.value=fechaformato
             resfecha.innerHTML="Fecha: "+fechareal
             //obteniendo valores de la mañana

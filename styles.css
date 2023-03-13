@@ -1,0 +1,44 @@
+
+label{
+    float: left;
+    clear: both;
+    text-align: right;
+    border: 2px solid #d3953d;
+    border-radius: 5%;
+    margin: 1px;
+    padding:1px
+
+}
+
+input[type="date"]{
+    float: right;
+   text-align: right;
+    border: 2px solid #159b4b;
+    border-radius: 5%;
+    margin: 1px;
+    padding:1px;
+    
+}
+
+#botonconsulta{
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(37, 119, 191);
+    float: right
+}
+
+#botonhoy{
+  font-weight: bolder;  
+  font-style: oblique;
+  background-color: brown;
+  float: left;
+}
+
+.pantallas{
+    float: left;
+   text-align: left;
+    border: 2px solid #c3f979;
+    border-radius: 5%;
+    margin: 1px;
+    padding:1px;
+}
